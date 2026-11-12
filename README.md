@@ -12,7 +12,7 @@ pnpm build
 
 ## Deploy
 
-GitHub Actions builds `dist` and deploys it to GitHub Pages on pushes to `main`. The Vite base is `/linggle-lab/`.
+GitHub Actions checks the build on main and pull requests. GitHub Pages serves the compiled `gh-pages` branch. Publish changes with `sh scripts/deploy.sh` from the authenticated owner account. The script builds first and replaces only the deployment branch. The Vite base is `/linggle-lab/`.
 
 Linggle does not send CORS headers. The browser uses the public, narrowly scoped Vercel bridge at `https://linggle-api-bridge.vercel.app/api/query`. Search terms and phrases pass through Vercel and Linggle. No API key or account is required. The bridge only permits gp, ngram and example requests to the fixed Linggle origin, with a 240-character limit and 20-second upstream timeout. It is not an arbitrary URL proxy. Availability depends on Linggle and Vercel; failures are displayed in the UI.
 
