@@ -1,0 +1,2 @@
+# Design
+Operate surface: a quiet sea-glass workspace, frosted navigation above a single translucent work surface. Warm ivory and sage ground, forest ink and pine action color. Lucide icons for tabs and actions with accessible names and native tooltips. Three icon tabs, a large search field, results without explanatory marketing text. Spacing follows 4px increments; transparent surface must retain legible contrast. Mobile results remain usable and keyboard tab switching follows ARIA patterns. State changes fade in; reduced motion respected.

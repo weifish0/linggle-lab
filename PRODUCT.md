@@ -1,0 +1,2 @@
+# Linggle Lab
+A small Traditional Chinese interface for testing the three Linggle APIs from the course notebook: grammar suggestions, phrase frequency, and examples. User explicitly requests glassmorphism, three tabs, Lucide icons, minimal copy, public GitHub repository, incremental commits, GitHub Pages deployment, and a subagent copy reduction pass. Public proxy approved because upstream has no CORS. Keep data and necessary error recovery text. No login or private notebook content is published.
